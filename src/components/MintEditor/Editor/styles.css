@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+.cm-editor .cm-content { 
+    font-family: 'Fira Code';
+    font-weight: 300;
+    font-size: 1.1rem;
+ }
+ 
+
+ .cm-content {
+    font-size: 0.5rem;
+ }

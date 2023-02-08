@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Manrope:wght@200;300;400;700&family=Poppins:wght@300;400;500;700&family=Roboto:wght@100;300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #000;
+}
+
+nav {
+    background: linear-gradient(90deg, rgba(0, 18, 46, 0.54) 0%, rgba(0, 2, 20, 0) 100%);
+}
+
+.container {
+    padding: 0% 6%;
+}
+
+.logo {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 46px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.nav-links {
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 0.15rem;
+}
+
+.hero-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    text-transform: capitalize;
+
+    background: linear-gradient(98.82deg, #62FFD9 4.96%, #2797FF 80.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.hero-button {
+    margin-top: 4rem;
+    border: 2px solid #E64DFF;
+    border-radius: 6px;
+    height: 52px;
+    width: 200px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.hero-button:hover {
+    border: 0px;
+    background-color:  #e2d7fd;
+    color: #000;
+}
